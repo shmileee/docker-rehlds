@@ -3,9 +3,10 @@
 
 public plugin_init()
 {
+	register_plugin("Pug Mod (Admin)",PUG_MOD_VERSION,PUG_MOD_AUTHOR);
+
 	register_dictionary("common.txt");
 	register_dictionary("PugAdmin.txt");
-	register_plugin("Pug Mod (Admin)",PUG_MOD_VERSION,PUG_MOD_AUTHOR);
 	
 	PUG_RegCommand("kick","PUG_Kick",ADMIN_LEVEL_A,"PUG_DESC_KICK");
 	PUG_RegCommand("kill","PUG_Kill",ADMIN_LEVEL_A,"PUG_DESC_KILL");

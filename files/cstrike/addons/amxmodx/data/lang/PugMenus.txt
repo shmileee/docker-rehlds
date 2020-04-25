@@ -12,7 +12,7 @@ PUG_TEAM_TYPE_SWAP  = Swap Teams
 PUG_VOTEMAP_NEXTMAP   = Changing map to %s...
 PUG_VOTEMAP_START   = Choose the start map.
 PUG_NOVOTES    = No votes.
-PUG_VOTE_CHOOSED   = %s choosed %L
+PUG_VOTE_CHOOSED   = %s choosed %s
 PUG_VOTEMAP_FAIL   = The map choice has failed:
 
 PUG_TEAMVOTE_START   = Select teams started.
@@ -43,7 +43,7 @@ PUG_TEAM_TYPE_SWAP  = Zamienic druzyny stronami
 PUG_VOTEMAP_NEXTMAP   = Zmieniamy mape na %s...
 PUG_VOTEMAP_START   = Wybierz mape startowa.
 PUG_NOVOTES      = Nie ma glosow.
-PUG_VOTE_CHOOSED   = %s wybral %L
+PUG_VOTE_CHOOSED   = %s wybral typ glosowania: %s
 PUG_VOTEMAP_FAIL   = Wybor mapy sie nie powiodl:
 
 PUG_TEAMVOTE_START   = Wybor druzyn rozpoczety.
