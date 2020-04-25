@@ -1,0 +1,21 @@
+version: "3.5"
+
+services:
+  rehlds:
+    image: rehlds:alpha
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./files/cstrike/addons/amxmodx/configs/maps.ini:/opt/hlds/cstrike/addons/amxmodx/configs/maps.ini:ro
+      - ./files/cstrike/addons/amxmodx/configs/plugins.ini:/opt/hlds/cstrike/addons/amxmodx/configs/plugins.ini
+    ports:
+      - "27015:27015"
+      - "27015:27015/udp"
+    command: -pingboost 3
+    environment:
+        RCON_PASSWORD: pass
+        ADMIN_STEAM: 0:1:25902560
+        SERVER_NAME: CSBydgoszcz.pl [AUTOMIX][CLASSIC][STEAM]
+        MAXPLAYERS: 12
+        START_MAP: de_dust2
