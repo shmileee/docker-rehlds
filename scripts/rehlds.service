@@ -1,0 +1,12 @@
+[Unit]
+Description=REHLDS
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/rehlds start
+ExecStop=/usr/local/bin/rehlds stop
+ExecReload=/usr/local/bin/rehlds reload
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

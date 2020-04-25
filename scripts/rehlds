@@ -1,0 +1,50 @@
+#!/bin/sh
+
+# Do not change this path
+PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin
+
+# The path to the game you want to host. example = /home/newuser/dod
+DIR=/home/shmile/projects/docker-rehlds
+DAEMON=./bin/server
+
+start()
+{
+    echo  -n "Starting HLDS"
+    if [ -e $DIR ]; then
+        cd $DIR
+        $DAEMON start
+    else
+        echo "No such directory: $DIR!"
+    fi
+}
+
+stop()
+{
+    echo -n "Stopping HLDS"
+    if [ -e $DIR ]; then
+        cd $DIR
+        $DAEMON stop
+    else
+        echo "No such directory: $DIR!"
+    fi
+}
+
+reload()
+{
+    echo -n "Restarting REHLDS"
+    stop
+    sleep 1
+    start
+}
+
+case "$1" in
+    start|stop|reload)
+        "$1"
+        ;;
+    *)
+        echo  "Usage: $ 0 {start | stop | reload | status}"
+        exit  1
+        ;;
+esac
+
+exit  0
