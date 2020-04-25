@@ -17,7 +17,7 @@ if [ -z "${RESTART_ON_FAIL}" ]; then
 fi
 
 if [ -n "${ADMIN_STEAM}" ]; then
-    echo "\"STEAM_${ADMIN_STEAM}\" \"\"  \"abcdefghijklmnopqrstu\" \"ce\"" >> "/opt/hlds/cstrike/addons/amxmodx/configs/users.ini"
+    echo "\"STEAM_${ADMIN_STEAM}\" \"\"  \"abcdefghijklmnopqrstuv\" \"ce\"" >> "/opt/hlds/cstrike/addons/amxmodx/configs/users.ini"
 fi
 
 exec "${EXECUTABLE}" "${OPTIONS[@]}" "${EXTRA_OPTIONS[@]}"

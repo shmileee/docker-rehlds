@@ -1,3 +1,7 @@
 ﻿[en]
 LANG_NAME	    	= English
 LANG_NAME_NATIVE	= English
+
+[pl]
+LANG_NAME	    	= Polski
+LANG_NAME_NATIVE	= Polski
