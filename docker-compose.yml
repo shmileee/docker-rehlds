@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   rehlds:
-    image: rehlds:alpha
+    image: rehlds-automix:alpha
     build:
       context: .
       dockerfile: Dockerfile
@@ -14,7 +14,6 @@ services:
       - "27015:27015/udp"
     command: -pingboost 3
     environment:
-        RCON_PASSWORD: pass
         ADMIN_STEAM: 0:1:25902560
         SERVER_NAME: CSBydgoszcz.pl [AUTOMIX][CLASSIC][STEAM]
         MAXPLAYERS: 12

@@ -1,0 +1,3 @@
+﻿[en]
+LANG_NAME	    	= English
+LANG_NAME_NATIVE	= English

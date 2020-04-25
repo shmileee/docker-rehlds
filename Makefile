@@ -1,6 +1,6 @@
 
 # Build options
-IMAGE_NAME?="rehlds"
+IMAGE_NAME?="rehlds-automix"
 IMAGE_TAG?="alpha"
 
 STEAM_USER?="anonymous"
@@ -9,7 +9,7 @@ STEAM_PASSWORD?=""
 DOCKER_NO_CACHE?="false"
 
 # Publish options
-DOCKER_PUBLISH_NAME?="shmileee/rehlds"
+DOCKER_PUBLISH_NAME?="shmileee/rehlds-automix"
 DOCKER_PUBLISH_TAG?=$(IMAGE_TAG)
 
 # Test tools
