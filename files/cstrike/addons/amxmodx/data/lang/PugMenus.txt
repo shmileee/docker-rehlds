@@ -33,7 +33,7 @@ PUG_CAPTAINS_UNASSIGNED  = Unassigned
 PUG_HUD_MAP    = Wybierz mape:
 PUG_HUD_TEAM    = Tryb rozgrywki:
 
-PUG_TEAM_TYPE_VOTE   = Glosowaniem
+PUG_TEAM_TYPE_VOTE   = Glosowanie
 PUG_TEAM_TYPE_CAPTAIN   = Kapitanem
 PUG_TEAM_TYPE_AUTO   = Losowo
 PUG_TEAM_TYPE_NONE   = Nie zmieniac
@@ -43,7 +43,7 @@ PUG_TEAM_TYPE_SWAP  = Zamienic druzyny stronami
 PUG_VOTEMAP_NEXTMAP   = Zmieniamy mape na %s...
 PUG_VOTEMAP_START   = Wybierz mape startowa.
 PUG_NOVOTES      = Nie ma glosow.
-PUG_VOTE_CHOOSED   = %s wybral typ glosowania: %s
+PUG_VOTE_CHOOSED   = %s wybral: %s
 PUG_VOTEMAP_FAIL   = Wybor mapy sie nie powiodl:
 
 PUG_TEAMVOTE_START   = Wybor druzyn rozpoczety.

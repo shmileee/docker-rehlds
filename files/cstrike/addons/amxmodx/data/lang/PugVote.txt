@@ -17,7 +17,7 @@ PUG_VOTE_MAP_PICK2 = Say ^3.votemap^1 if you want to nominate a map.
 PUG_VOTE_MAP_CHANGE = Changing to ^4%s^1...
 
 [pl]
-PUG_VOTE_KICK_DESC = Glosowanie za kick Gracza.
+PUG_VOTE_KICK_DESC = Glosowanie za wyrzucenie Gracza.
 PUG_VOTE_KICK_MENU = Glosowanie za wyrzucenie:
 PUG_VOTE_KICK_MAIN = Wybierz gracza do wyrzucenia.
 PUG_VOTE_KICK_NEED = Potrzebne sa ^3%i^1 graczy zeby wymusic glosowanie za wyrzucenie.

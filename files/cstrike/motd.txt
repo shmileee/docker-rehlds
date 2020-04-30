@@ -1,0 +1,8 @@
+<html>    
+<head>    
+<title>motd and rules</title>    
+</head>    
+<body bgcolor="#000000" text="white">    
+<center><img width=100% border="0" src="https://i.imgur.com/FSD3hFU.png"></center>    
+</body>    
+</html>

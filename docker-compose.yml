@@ -15,6 +15,6 @@ services:
     command: -pingboost 3
     environment:
         ADMIN_STEAM: 0:1:25902560
-        SERVER_NAME: CSBydgoszcz.pl [AUTOMIX][CLASSIC][STEAM]
-        MAXPLAYERS: 12
+        SERVER_NAME: CSBydgoszcz.pl [AUTOMIX]
+        MAXPLAYERS: 11
         START_MAP: de_dust2

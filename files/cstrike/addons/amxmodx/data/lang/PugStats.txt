@@ -25,7 +25,7 @@ PUG_DESC_SUM  = Podsumowanie rundy.
 PUG_HP_NONE  = Nikt nie zyje.
 PUG_HP_CMD  = ^3%s^1 z %i HP (%i AP)
 
-PUG_DMG  = Trafil ^3%s^1 %i raz(y) (Obrazenia %i)
+PUG_DMG  = Trafiles ^3%s^1 %i raz(y) (Obrazenia %i)
 PUG_NODMG  = Nie trafiles nikogo w tej rundzie.
 
 PUG_RDMG  = Trafiony przez ^3%s^1 %i raz(y) (Obrazenia %i)

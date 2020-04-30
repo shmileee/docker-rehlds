@@ -54,7 +54,7 @@ PUG_HELP_TITLE_ADMIN = Admin Commands
 
 [pl]
 PUG_BUILD_STRING1= %s Build %s (%s)
-PUG_BUILD_STRING2= Napisz ^3.help^1 zeby zobaczyc liste komend
+PUG_BUILD_STRING2= Napisz ^3.help^1 zeby zobaczyc liste komend. Napisz ^3.ready^1 aby zglosic gotowosc.
 
 PUG_STATUS = %s (Graczy: %i) (%i min - %i max)
 PUG_START_PUG = ADMIN: Rozpoczal mecz.
