@@ -9,12 +9,12 @@ services:
     volumes:
       - ./files/cstrike/addons/amxmodx/configs/maps.ini:/opt/hlds/cstrike/addons/amxmodx/configs/maps.ini:ro
       - ./files/cstrike/addons/amxmodx/configs/plugins.ini:/opt/hlds/cstrike/addons/amxmodx/configs/plugins.ini
+      - ./files/cstrike/addons/amxmodx/configs/users.ini:/opt/hlds/cstrike/addons/amxmodx/configs/users.ini
     ports:
       - "27015:27015"
       - "27015:27015/udp"
     command: -pingboost 3
     environment:
-        ADMIN_STEAM: 0:1:25902560
         SERVER_NAME: CSBydgoszcz.pl [AUTOMIX]
         MAXPLAYERS: 11
         START_MAP: de_dust2
